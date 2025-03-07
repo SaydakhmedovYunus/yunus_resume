@@ -10,6 +10,7 @@
     <meta name="theme-color" content="#ffffff">
     <link rel="icon" type="image/png" sizes="32x32" href="./images/global.png">
     <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <title>Резюме | Юнус</title>
 </head>
 
@@ -17,10 +18,11 @@
     <header>
         <img src="./images/my_photo.jpg" alt="Юнус Сайдахмедов" width="200">
         <h1>Юнус Сайдахмедов</h1>
+        <p style="color: white;">Web Developer | JavaScript | TypeScript | React | HTML & CSS</p>
     </header>
 
     <main>
-        <section>
+        <section class="card">
             <h2>Обо мне</h2>
             <hr>
             <p><strong>Я веб-разработчик с фокусом на Frontend и React.</strong> Создаю современные, удобные и быстрые веб-приложения, используя HTML, CSS, JavaScript и React.</p>
@@ -28,8 +30,9 @@
             <hr>
         </section>
 
-        <section>
+        <section class="card">
             <h2>Социальные сети</h2>
+            <hr>
             <nav>
                 <ul>
                     <li><a href="https://www.instagram.com/_yunus_234_" target="_blank" rel="noopener noreferrer">Instagram</a></li>|
@@ -39,8 +42,9 @@
             </nav>
         </section>
 
-        <section>
+        <section class="card">
             <h2>Мои хобби</h2>
+            <hr>
             <ul>
                 <li>Путешествия</li>
                 <li>Блоггинг</li>
@@ -49,8 +53,9 @@
             </ul>
         </section>
 
-        <section>
+        <section class="card">
             <h2>Опыт работы</h2>
+            <hr>
             <table>
                 <caption>Мой профессиональный опыт</caption>
                 <thead>
@@ -70,16 +75,17 @@
             </table>
         </section>
 
-        <section>
+        <section class="card">
             <h2>Связаться со мной</h2>
+            <hr>
             <form action="#" method="get">
                 <fieldset>
                     <legend>Форма обратной связи</legend>
                     <label for="name">Ваше имя:</label>
-                    <input type="text" id="name" name="name" placeholder="Введите имя">
+                    <input type="text" id="name" name="name" placeholder="Введите имя" required>
                     <br><br>
                     <label for="email">Ваш Email:</label>
-                    <input type="email" id="email" name="email" placeholder="Введите Email">
+                    <input type="email" id="email" name="email" placeholder="Введите Email" required>
                     <br><br>
                     <label for="message">Ваше сообщение:</label>
                     <br>
